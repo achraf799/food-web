@@ -6,16 +6,16 @@
       </div>
       <ul>
         <li>
-          <a href>WELCOME</a>
+          <a href="#Home">WELCOME</a>
         </li>
         <li>
-          <a href>MENU</a>
+          <a href="#Menu1">MENU</a>
         </li>
         <li>
-          <a href>EVENTS</a>
+          <a href="#Book">EVENTS</a>
         </li>
         <li>
-          <a href>CONTACT</a>
+          <a href="#Contact">CONTACT</a>
         </li>
       </ul>
     </nav>
@@ -25,16 +25,16 @@
     <nav class="navlist" :class="{ open: menuOpen }">
       <ul id="menuList">
         <li>
-          <a href>WELCOME</a>
+          <a href="#Home">WELCOME</a>
         </li>
         <li>
-          <a href>MENU</a>
+          <a href="#Menu1">MENU</a>
         </li>
         <li>
-          <a href>EVENTS</a>
+          <a href="#Book">EVENTS</a>
         </li>
         <li>
-          <a href>CONTACT</a>
+          <a href="#Contact">CONTACT</a>
         </li>
       </ul>
     </nav>

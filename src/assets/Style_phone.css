@@ -70,7 +70,10 @@
         align-items: center;
         padding: 30px;
       }
-    
+      nav ul {
+        display: flex;
+        gap: 50px;
+    }
       .navlist ul li{
         display: flex;
         flex-direction: column;
