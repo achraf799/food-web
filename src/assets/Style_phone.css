@@ -208,6 +208,13 @@ height: auto;
   z-index: 1;
 
 }
+.owl-carousel .owl-stage-outer {
+
+  display: block;
+}
+.owl-carousel.owl-loaded {
+  display: block;
+}
 
 .owl-theme .owl-nav {
   margin-top: 10px;

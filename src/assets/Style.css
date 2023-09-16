@@ -458,13 +458,13 @@ gap: 20px;
 .owl-carousel .owl-stage {
   overflow-y: hidden;
 }
-/* .owl-carousel .owl-stage-outer {
+.owl-carousel .owl-stage-outer {
 
   display: none;
 }
 .owl-carousel.owl-loaded {
   display: none;
-} */
+}
 .container7{
   background-image: url("./images/20.png");
   background-repeat: no-repeat;
