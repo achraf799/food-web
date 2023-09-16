@@ -1,0 +1,373 @@
+@media screen and (max-width: 500px) {
+    *{
+        overflow-x: hidden;
+        
+        --font-family1: Raleway;
+        --font-family2:Cookie;
+        --font-size-title1: 42px;
+        --font-size-title2: 32px;
+        --font-size-title3: 22px;
+        --font-weight-title1: 700;
+        --font-weight-title2: 300
+
+    }
+    section{
+        padding: 20px;
+        
+      }
+
+
+    .nav1{
+        display: none;
+    }
+    #menu-icon {
+        display: block;
+        padding: 20px 0;
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 3;
+      }
+
+      #menuList{
+        width: auto;
+        padding: 0;
+        margin: 0;
+      }
+    
+      .navlist {
+        position: absolute;
+        top: 1%;
+        right: -100%;
+        width: 200px;
+        height: 40vh;
+        display: flex;
+        background-image: url("../assets/images/menuBack.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        flex-direction: column;
+        justify-content: center;
+        border-radius: 10px;
+        transition: all 0.5s ease;
+        z-index: 2;
+        text-align: center;
+        padding: 0;
+      }
+    
+      .navlist a {
+        display: block;
+        margin: 3px 0;
+        padding: 0px 10px;
+        font-size: 15px;
+        font-weight: 700;
+        color: #190b28;
+        transition: all 0.5s ease;
+      }
+    
+      .navlist ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px;
+      }
+    
+      .navlist ul li{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+      }
+    
+      .navlist.open {
+        right: 2%;
+      }
+    
+      #menu-icon.bx-x {
+        opacity: 70%;
+        transition: all 0.5s ease;
+        margin: 0 20px;
+      }
+
+      #menu-icon img{
+        margin: 0 20px;
+      }
+      .title1{
+        display: none;
+      }
+      .title2{
+        display: block;
+        color: #fff;
+          font-family: var(--font-family1);
+          font-size: 20px;
+          font-weight: 700;
+          letter-spacing: 0.16px;
+          position: relative;
+          top: 0;
+          right: 0%;
+      }
+
+      .Welcome_content{
+        text-align: center;
+        padding: 20px 10px ;
+      }
+
+      .Welcome_content button span{
+        font-size: 25px;      
+      }
+/* __________________________________________________________________________________ */
+
+.container2{
+  flex-direction: column;
+}
+
+.Flavour-text{
+  width: 100%;
+  gap: 20px;
+}
+
+.container2 img {
+  width: 100%;
+  height: auto;
+  margin: 50px 0;
+}
+
+/* _________________________________________________________________ */
+
+
+.container3 {
+  flex-direction: column;
+  gap: 20px;
+  align-items: baseline;
+}
+  
+.news-card {
+  width: 100%;
+  height: 300px;
+}
+  
+  .news-card h1{
+    color: #2B3C40;
+    font-family: var(--font-family1);
+    font-size: var(--font-size-title2);
+  }
+  
+  .news-card p{
+    font-family: var(--font-family1);
+    font-size: var(--font-size-p);
+    line-height: 25px;
+    margin-top: 10px;
+  }
+  
+  .news-card-img{
+  display: flex;
+  flex-direction: row;
+  
+  }
+  
+  .news-card-img img {
+    height: 20px;
+    width: 20px;
+  margin: 5px;
+  }
+
+/* _________________________________________________________ */
+
+
+
+.container4{
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Plates-content{
+  display: none;
+}
+.VueCarousel{
+  display: flex;
+}
+
+
+/* .card2{
+width: 300px;
+height: auto;
+} */
+
+.owl-carousel.owl-loaded {
+  display: block;
+  padding: 20px;
+}
+
+.owl-carousel {
+  width: 350px;
+  -webkit-tap-highlight-color: transparent;
+  position: relative;
+  z-index: 1;
+
+}
+
+.owl-theme .owl-nav {
+  margin-top: 10px;
+  text-align: center;
+  -webkit-tap-highlight-color: transparent;
+  width: 250px;
+
+}
+
+.owl-theme .owl-dots {
+  text-align: center;
+  -webkit-tap-highlight-color: transparent;
+  padding: 0 50px;
+
+
+}
+
+.owl-carousel .owl-item img{
+  height: 250px;
+  width: 250px;
+}
+
+.card2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 300px;
+  height: auto;
+}
+
+/* _________________________________________________________________________________ */
+#Cuisine{
+  background-color: #DFE0E0;
+height: auto;
+padding: 20px;
+}
+
+.Cuisine-back1{
+  display: none;
+}
+
+.Cuisine-back2{
+  display: none;
+}
+
+.Cuisine-footer{
+  padding: 0 ;
+}
+
+.container5{
+height: 100%;
+width: 100%;
+padding: 0 20px;
+gap: 30px;
+}
+
+/* ______________________________________________________________________________ */
+#Menu1{
+  padding: 0;
+  }
+  
+  .container6{
+  padding: 20px ;
+  }
+
+  .container6-content{
+  padding: 0;
+  }
+  
+  .Menu1-content{
+    display: none;
+  }
+  
+  .container7{
+    display: none;
+  }
+
+  .card3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 350px;
+  height: 350px;
+  text-align: center;
+}
+
+.owl-carousel .owl-item img {
+height: 150px;
+width: 150px;
+margin-bottom: 20px;
+}
+
+.title3{
+  text-align: center;
+}
+
+/* _____________________________________________________________________ */
+
+.row3{
+  flex-direction: column;
+
+}
+
+.card3{
+  width: 300px;
+  height: 500px;
+  padding: 20px;
+
+}
+
+
+.card3 img{
+padding: 10px;
+height: 220px;
+width: 300x;
+}
+
+.container9{
+  display: none;
+}
+
+/* _____________________________________________________________________________ */
+
+.container11{
+  padding: 0 ;
+}
+/* _________________________________________________________________________________ */
+
+
+
+.container12{
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 50px;
+  padding: 0 ;
+}
+.footer-column1{
+  gap: 10px;
+}
+
+.footer-column2{
+
+  gap: 5px;
+}
+
+.footer-column2 h3{
+  margin-bottom: 5px;
+}
+
+/* __________________________________________________________________ */
+
+  .container8{
+  padding: 20px;
+  gap: 50px;
+  }
+  
+  .row2{
+    flex-direction: column;
+  gap: 20px;
+  
+  }
+ 
+
+}
