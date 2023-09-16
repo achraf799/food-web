@@ -712,6 +712,7 @@ width: 100%;
 .container8 button{
   border: #fff;
   color: #fff;
+  background-color: #2B3C40;
   height: 40px;
   width: 300px;
   border-style: groove;
@@ -723,7 +724,6 @@ width: 100%;
   color: #fff;
   font-family: var(--font-family1);
   font-size: var(--font-size-title3);
-  margin-bottom: 20px;
 }
 
 

@@ -41,11 +41,9 @@
           </div>
         </div>
       </div>
-      <div class="input">
-        <button>
-          <h3>SUBMIT</h3>
-        </button>
-      </div>
+      <button>
+        <h3>SUBMIT</h3>
+      </button>
     </div>
     <div class="container9"></div>
   </section>
